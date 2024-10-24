@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinesh- Developer Portfoliot</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      body {
+        background-color: rgb(15, 15, 54);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(25, 25, 107);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+
+        align-items: center;
+      }
+      .firstSection >div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 3em;
+      }
+
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      nav ul a li{
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Dinesh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <a href="/"><li>Home</li></a>
+            <a href="/"><li>About</li></a>
+            <a href="/"><li>Services</li></a>
+            <a href="/"><li>Project</li></a>
+            <a href="/"><li>Contact us</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello My name is <span class="purple">Dinesh </span>
+          <div>and I am Web Developer</div>
+        </div>
+
+        <div class="rightSection">
+          <img src="software-development.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
